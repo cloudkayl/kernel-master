@@ -1,0 +1,14 @@
+Generic_module(List)
+Generic_module(ListSort)
+
+template (list)
+
+List (Atom, Atom)
+#List (Int,  Integer)
+#List (Ref,  Refany)
+#List (Text, Text)
+
+#List_sort (Atom, Atom)
+#List_sort (Int,  Integer)
+#List_sort (Ref,  Refany)
+#List_sort (Text, Text)
