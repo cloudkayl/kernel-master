@@ -1,0 +1,24 @@
+Generic_module(Table)
+
+template (table)
+
+Table (AtomAtom, Atom, Atom)
+#Table (AtomInt,  Atom, Integer)
+#Table (AtomRef,  Atom, Refany)
+#Table (AtomText, Atom, Text)
+
+#Table (IntAtom, Integer, Atom)
+#Table (IntInt,  Integer, Integer)
+#Table (IntRef,  Integer, Refany)
+#Table (IntText, Integer, Text)
+
+#Table (RefAtom, Refany, Atom)
+#Table (RefInt,  Refany, Integer)
+#Table (RefRef,  Refany, Refany)
+#Table (RefText, Refany, Text)
+
+#Table (TextAtom, Text, Atom)
+#Table (TextInt,  Text, Integer)
+Table (TextRef,  Text, Refany)
+#Table (TextText, Text, Text)
+

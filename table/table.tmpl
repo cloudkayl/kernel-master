@@ -1,0 +1,11 @@
+readonly proc Table (nm, key, value) is
+  local tab = nm & "Tbl"
+  build_generic_intf (tab, "Table", [key, value], VISIBLE)
+  build_generic_impl (tab, "Table", [key, value])
+end
+
+readonly proc table (nm, key, value) is
+  local tab = nm & "Tbl"
+  build_generic_intf (tab, "Table", [key, value], HIDDEN)
+  build_generic_impl (tab, "Table", [key, value])
+end
