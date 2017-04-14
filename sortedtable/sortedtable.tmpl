@@ -1,0 +1,13 @@
+readonly proc Sorted_table (nm, key, value) is
+  local base = nm & "Tbl"
+  local tab  = "Sorted" & base
+  build_generic_intf (tab, "SortedTable", [key, base], VISIBLE)
+  build_generic_impl (tab, "SortedTable", [key, value, base])
+end
+
+readonly proc sorted_table (nm, key, value) is
+  local base = nm & "Tbl"
+  local tab  = "Sorted" & base
+  build_generic_intf (tab, "SortedTable", [key, base], HIDDEN)
+  build_generic_impl (tab, "SortedTable", [key, value, base])
+end
