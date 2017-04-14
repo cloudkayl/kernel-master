@@ -1,0 +1,36 @@
+Interface(Rd)
+Interface(RdClass)
+Interface(UnsafeRd)
+
+implementation(RdMove)
+implementation(RdImpl)
+
+Interface(UnsafeWr)
+Interface(Wr)
+Interface(WrClass)
+implementation(WrMove)
+
+Module(NullRd)
+Module(NullWr)
+
+Module(RdCopy)
+
+Module(TextRd)
+Module(TextWr)
+
+Module (RdUtils)
+
+% Module(FileRd)
+% Module(FileWr)
+% Module(IO)
+
+% Module(AutoFlushWr)
+% Module(Stdio)
+
+Interface(MsgRd)
+Interface(MsgWr)
+
+% Module(Lex)
+
+
+
