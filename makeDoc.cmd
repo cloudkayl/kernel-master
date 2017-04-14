@@ -1,6 +1,5 @@
 @echo off
 :: See usage message for help. See
-:: http://en.wikibooks.org/wiki/Windows_Programming/Programming_CMD for syntax of batch
 :: scripts.
 goto LStart
 :LUsage
@@ -9,12 +8,6 @@ echo   Generate the (dependent) documentation files, which are part of the setup
 echo are not under source control. This script is part of the setup generation process. The
 echo start directory is cm\createSetup.
 goto :eof
-
-:: 
-:: Copyright (c) 2012, FEV GmbH, Germany
-:: 
-:: Author: Peter Vranken (mailto:Peter.Vranken@FEV.de)
-:: 
 
 :LStart
 ::if /i "%1" == "" goto LUsage
