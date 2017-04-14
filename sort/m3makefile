@@ -1,0 +1,7 @@
+Generic_module (ArraySort)
+
+template (arraysort)
+
+#Array_sort (Int,  Integer)
+Array_sort (Text, Text)
+

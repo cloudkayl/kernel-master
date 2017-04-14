@@ -1,0 +1,14 @@
+%  Quake functions to instantiate a generic array sort.
+%
+
+readonly proc Array_sort (nm, elt) is
+  local sort = nm & "ArraySort"
+  build_generic_intf (sort, "ArraySort", [elt], VISIBLE)
+  build_generic_impl (sort, "ArraySort", [elt])
+end
+
+readonly proc array_sort (nm, elt) is
+  local sort = nm & "ArraySort"
+  build_generic_intf (sort, "ArraySort", [elt], HIDDEN)
+  build_generic_impl (sort, "ArraySort", [elt])
+end
